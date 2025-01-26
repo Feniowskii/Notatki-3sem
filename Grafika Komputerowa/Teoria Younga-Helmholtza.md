@@ -1,0 +1,1 @@
+Oko ludzkie jest *trójchromatyczne*: [[Mechanizm widzenia#Układ czopkowy (dzienny)]] rozpoznaje barwy [[Modele kolorów#CIE RGB]].

@@ -1,0 +1,30 @@
+{
+	"nodes":[
+		{"id":"d26b7ee0bcedbe39","type":"group","x":-521,"y":-595,"width":291,"height":220,"label":"legenda"},
+		{"id":"469a69bc01fa8d8c","type":"text","text":"Rygor","x":-520,"y":-240,"width":250,"height":60},
+		{"id":"39a813bd16685d6c","type":"text","text":"one-to-one","x":-501,"y":-515,"width":250,"height":60},
+		{"id":"918fb14ae7395f12","type":"text","text":"many-to-one","x":-501,"y":-455,"width":250,"height":60,"color":"5"},
+		{"id":"d10863d413728030","type":"text","text":"one-to-many","x":-500,"y":-575,"width":250,"height":60,"color":"1"},
+		{"id":"ee4e5d837ce3c9df","type":"text","text":"# Cela\n- Numer\n- Piętro","x":-100,"y":-240,"width":299,"height":140},
+		{"id":"60988b582406bcce","type":"text","text":"# Blok więzienny","x":74,"y":-446,"width":250,"height":60},
+		{"id":"ee6696f85dd15524","type":"text","text":"Dozwolone zajęcia","x":-840,"y":-100,"width":250,"height":60},
+		{"id":"af4f2f3eb0d97f83","type":"text","text":"#temp","x":-219,"y":-702,"width":250,"height":60},
+		{"id":"f07f70a57c374318","type":"text","text":"Uczęszczane zajęcia","x":-500,"y":60,"width":250,"height":60},
+		{"id":"4f50088c748fe930","type":"file","file":"Bazy Danych/Bazy Danych Projekt.md","x":593,"y":-129,"width":1687,"height":1089},
+		{"id":"4b0ba13e15f33dab","type":"text","text":"# Strażnik","x":500,"y":-446,"width":250,"height":60},
+		{"id":"93fa5e049cf461cd","type":"text","text":"# Więzień\n- Imię\n- Nazwisko\n- Data rozpoczęcia wyroku\n- Data trafienia do placówki","x":-86,"y":0,"width":271,"height":180}
+	],
+	"edges":[
+		{"id":"62e7851c1e1e18bf","fromNode":"ee4e5d837ce3c9df","fromSide":"bottom","toNode":"93fa5e049cf461cd","toSide":"top","fromEnd":"arrow"},
+		{"id":"3443dec8c7a64d6b","fromNode":"60988b582406bcce","fromSide":"bottom","toNode":"ee4e5d837ce3c9df","toSide":"top","color":"1"},
+		{"id":"376954f073e2164b","fromNode":"469a69bc01fa8d8c","fromSide":"right","toNode":"ee4e5d837ce3c9df","toSide":"left","fromEnd":"arrow"},
+		{"id":"fa02b7913ac43e1e","fromNode":"469a69bc01fa8d8c","fromSide":"right","toNode":"93fa5e049cf461cd","toSide":"left","fromEnd":"arrow"},
+		{"id":"e51ef86053a9e5b8","fromNode":"469a69bc01fa8d8c","fromSide":"right","toNode":"60988b582406bcce","toSide":"left","fromEnd":"arrow"},
+		{"id":"6b00a6a4e4d3f84d","fromNode":"93fa5e049cf461cd","fromSide":"right","toNode":"60988b582406bcce","toSide":"bottom","fromEnd":"arrow","color":"6"},
+		{"id":"d58729fd77f2019a","fromNode":"60988b582406bcce","fromSide":"right","toNode":"4b0ba13e15f33dab","toSide":"left","fromEnd":"arrow","color":"6"},
+		{"id":"7a495af97556a194","fromNode":"60988b582406bcce","fromSide":"left","toNode":"ee6696f85dd15524","toSide":"top"},
+		{"id":"9bb3b24c1b43163a","fromNode":"469a69bc01fa8d8c","fromSide":"left","toNode":"ee6696f85dd15524","toSide":"top"},
+		{"id":"0c141840fb358cbe","fromNode":"93fa5e049cf461cd","fromSide":"left","toNode":"f07f70a57c374318","toSide":"right","fromEnd":"arrow"},
+		{"id":"076c52a75e8088f2","fromNode":"f07f70a57c374318","fromSide":"left","toNode":"ee6696f85dd15524","toSide":"right","fromEnd":"arrow"}
+	]
+}

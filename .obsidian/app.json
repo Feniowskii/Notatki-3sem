@@ -1,0 +1,26 @@
+{
+  "promptDelete": false,
+  "spellcheck": false,
+  "alwaysUpdateLinks": true,
+  "mobileToolbarCommands": [
+    "editor:indent-list",
+    "editor:toggle-inline-math",
+    "editor:attach-file",
+    "editor:toggle-bold",
+    "editor:toggle-italics",
+    "editor:toggle-strikethrough",
+    "editor:toggle-highlight",
+    "editor:toggle-bullet-list",
+    "editor:toggle-numbered-list",
+    "editor:toggle-checklist-status",
+    "editor:unindent-list",
+    "editor:undo",
+    "editor:redo",
+    "editor:configure-toolbar",
+    "editor:insert-table",
+    "note-composer:split-file"
+  ],
+  "mobilePullAction": "command-palette:open",
+  "newFileLocation": "current",
+  "trashOption": "local"
+}

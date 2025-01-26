@@ -1,0 +1,342 @@
+{
+  "main": {
+    "id": "15bfde109d9a6362",
+    "type": "split",
+    "children": [
+      {
+        "id": "8b135f0a8b7fd913",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "56b0296d0c26dabb",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "MiI/Multimedia i Interfejsy.canvas",
+                "viewState": {
+                  "x": 1995.6779616639456,
+                  "y": 761.2805001972996,
+                  "zoom": -0.45138163024441363
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Multimedia i Interfejsy"
+            }
+          },
+          {
+            "id": "d3a205e54312d74b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analiza Matematyczna/Rachunek Różniczkowy.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Rachunek Różniczkowy"
+            }
+          },
+          {
+            "id": "4047b1b3c7f6b38a",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Języki Programowania/Języki Programowania.canvas",
+                "viewState": {
+                  "x": 2298.5,
+                  "y": 297.96384928716896,
+                  "zoom": -0.42433650222402775
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Języki Programowania"
+            }
+          },
+          {
+            "id": "e87e077281088d10",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Grafika Komputerowa/Grafika Komputerowa.canvas",
+                "viewState": {
+                  "x": 2135.4609310622727,
+                  "y": 2091.5010962443566,
+                  "zoom": -1.6642914527267865
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Grafika Komputerowa"
+            }
+          },
+          {
+            "id": "3f219dafa0ca0d50",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "MiI/Multimedia i Interfejsy.canvas",
+                "viewState": {
+                  "x": 2393.5967318183625,
+                  "y": 769.8713557183066,
+                  "zoom": -0.6730469878230456
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Multimedia i Interfejsy"
+            }
+          },
+          {
+            "id": "752d90d239ff4d19",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MiI/Ocena interfejsu.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Ocena interfejsu"
+            }
+          },
+          {
+            "id": "9d558ee5eb923e1f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MiI/Interfejsy.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Interfejsy"
+            }
+          },
+          {
+            "id": "ea6b8e45cc3f0c3d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AKO/Przerwanie systemowe.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Przerwanie systemowe"
+            }
+          },
+          {
+            "id": "53715c64d3927740",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Matematyka/Analiza Matematyczna/Zadania/Całki.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Całki"
+            }
+          },
+          {
+            "id": "f1b607ee49211df9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MiI/Histogram.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Histogram"
+            }
+          }
+        ],
+        "currentTab": 9
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "316fb679dfc111e7",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "80add3374460316f",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Files"
+        }
+      },
+      {
+        "id": "81e98c99f36f08f4",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "Search"
+        }
+      },
+      {
+        "id": "5f29b865d6b6e709",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          },
+          "icon": "lucide-tags",
+          "title": "Tags"
+        }
+      },
+      {
+        "id": "f688b7bb2a161f88",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "Bookmarks"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "35c7c377dd587ac6",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "b85f7748879cbe5d",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "AKO/Sterta.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "Backlinks"
+        }
+      },
+      {
+        "id": "2ab55bed9bf2c572",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "AKO/Sterta.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "Outgoing links"
+        }
+      },
+      {
+        "id": "04e6ee6e39b12e00",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "AKO/AKO_2024_cz_5.pdf"
+          },
+          "icon": "lucide-list",
+          "title": "Outline"
+        }
+      }
+    ],
+    "currentTab": 2
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "f1b607ee49211df9",
+  "lastOpenFiles": [
+    "MiI/Multimedia i Interfejsy.canvas",
+    "AKO/AKO_2024_cz_3.pdf",
+    "Grafika Komputerowa/Typografia.md",
+    "Grafika Komputerowa/pdf.md",
+    "AKO/Untitled.md",
+    "AKO/AKO_2024_cz_5.pdf",
+    "AKO/AKO_2024_cz_4.pdf",
+    "PAA/PAA.canvas",
+    "Matematyka/Analiza Matematyczna/Slajdy/AM_06_RownaniaRozniczkowe.pdf",
+    "AKO/Architektura Komputerów.canvas",
+    "Matematyka/Analiza Matematyczna/Szeregi.md",
+    "Matematyka/Analiza Matematyczna/Zadania/Untitled.md",
+    "Matematyka/Analiza Matematyczna/Zadania/Całki.pdf",
+    "Matematyka/Analiza Matematyczna/Analiza.pdf",
+    "AKO/AKO_2024_cz_2.pdf",
+    "Grafika Komputerowa/Renderowanie.md",
+    "PAA/Algorytmy grafowe.md",
+    "Matematyka/Analiza Matematyczna/Całki.md",
+    "Matematyka/Analiza Matematyczna/Pochodne.md",
+    "Matematyka/Analiza Matematyczna/Zadania/Pochodne.pdf",
+    "Matematyka/Analiza Matematyczna/Slajdy/AM_04_SzeregiLiczbowe.pdf",
+    "Matematyka/Analiza Matematyczna/Rachunek Różniczkowy.md",
+    "Matematyka/Matematyka Dyskretna/grafy-Kubale.pdf",
+    "AKO/Pamięć.md",
+    "Matematyka/Analiza Matematyczna/Untitled.md",
+    "Grafika Komputerowa/Fraktale.md",
+    "Grafika Komputerowa/Odcinek dyskretny.md",
+    "Grafika Komputerowa/Krzywe Béziera.md",
+    "Grafika Komputerowa/Dyskretyzacja obrazów rzeczywistych.md",
+    "Grafika Komputerowa/Reprezentacja obrazów.md",
+    "Grafika Komputerowa/Teoria Younga-Helmholtza.md",
+    "Grafika Komputerowa/CIE-XYZ.png",
+    "Grafika Komputerowa/Modele kolorów.md",
+    "Grafika Komputerowa/Układ optyczny oka.md",
+    "Grafika Komputerowa/Zjawiska widzenia przestrzennego.md",
+    "Grafika Komputerowa/Mechanizm widzenia.md",
+    "Grafika Komputerowa/Metameryzm.md",
+    "Grafika Komputerowa/Przekształcenia.md",
+    "Grafika Komputerowa/Definicja dziedziny.md",
+    "Grafika Komputerowa/Grafika Komputerowa.canvas",
+    "AKO/Architektura von Neumanna.canvas",
+    "Języki Programowania/Języki Programowania.canvas",
+    "PAA/ćwiczenia.webp",
+    "PAA/Łagodne Wprowadzenie.canvas",
+    "Bazy Danych/Bazy Danych Projekt.canvas",
+    "Bazy Danych/Bazy Danych.canvas",
+    "Fizyka/Fizyka Współczesna.canvas"
+  ]
+}

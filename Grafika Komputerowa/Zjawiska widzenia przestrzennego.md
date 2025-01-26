@@ -1,0 +1,2 @@
+- Stereopsja 👀
+- Interpozycja (przesłanianie obiektów)

@@ -1,0 +1,1 @@
+$$\Sigma{\delta(v_i) + 1} = 2m + n$$

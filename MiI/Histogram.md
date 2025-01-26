@@ -1,0 +1,1 @@
+![[MiI 04 Image Processing.pdf#page=10]]
