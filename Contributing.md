@@ -7,5 +7,5 @@ Możesz śmiało wykorzystywać formatowanie Markdown i specyficzne smaczki, o k
 
 # Czego nie przyjmę w Pull Requeście
 ## Nowych wtyczek lub motywów Obsidiana.
-Żeby korzystać z wtyczek na własnym urządzeniu i móc wprowadzać zmiany do notatek w repozytorium, możesz dodać folder konfiguracyjny Obsidiana `.obsidian` do `.gitignore`.
+Żeby korzystać z wtyczek na własnym urządzeniu i móc wprowadzać zmiany do notatek w repozytorium, folder konfiguracyjny Obsidiana `.obsidian` jest wylistowany w `.gitignore`.
 ## Wszystkiego co kłóci się z [[README]]
