@@ -3,11 +3,11 @@ Pamięć to jest de facto *wektor liczb*.
 Jeśli komórkę tworzy 8 bitów, pamięć ma *organizację bajtową*.
 Dane zapisane w pamięci są nierozróżnialne od instrukcji!
 
-W organizacji **bajtowej** 8 bitów (bajt) określa się *słowem*.
->16 bitów to słowo podwójne (DWORD)
-  32 bity (4 bajty) to słowo poczwórne
+W organizacji **bajtowej** 8 bitów = 1 bajt.
+>16 bitów to słowo (WORD)
+>32 bity (4 bajty) to słowo podwójne (DWORD)
 
-*Słowo* zajmuje jedną komórkę danych w pamięci. Każde słowo ma unikalny adres w *Przestrzeni adresowej*.
+*Bajt* zajmuje jedną komórkę danych w pamięci. Każdy bajt ma unikalny adres w *Przestrzeni adresowej*.
 Przestrzeń adresowa to zbiór wszystkich liczb które stanowią adresy istniejących komórek w pamięci. Zazwyczaj przestrzeń adresowa ma liczność równą największej możliwej wartości słowa.
 > Na przykład w organizacji 4-bitowej przestrzeń adresowa leży między `00` a `FF`
 # Znaczność bitów
