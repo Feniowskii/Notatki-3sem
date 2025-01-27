@@ -1,8 +1,3 @@
-[[Pamięć]]
-[[Endian]]
-
-
-
 # Komunikacja pamięć-procesor
 
 # Budowa fizyczna
@@ -24,7 +19,7 @@ Analogicznie, gotowa do odczytu **kolumny**.
 >$$E = V^2 \cdot f$$
 >Zwiększając napięcie znacznie rośnie zużycie energii, a za tym temperatura komponentów. Ogranicza to możliwości pamięci.
 
-# Lokalność pamięci
+# 
 ## Lokalność czasowa
 Częste, szybkie odwołania do tych samych komórek
 ## Lokalność przestrzenna
@@ -34,6 +29,20 @@ Podobne adresy
  >[!note] Slajd niekompletny o procesory wielordzeniowe
  
 	 22bit _______|___ 10bit
-Na 22 bitach zapamiętujemy *etykietę* bloku, na 10 bitach offset w ramach bloku [[AKO_2024_cz_5.pdf#page=34]]
+Na 22 bitach zapamiętujemy *etykietę* bloku, na 10 bitach offset w ramach bloku 
+# Cache
+![[AKO_2024_cz_5.pdf#page=30]]
+## Synchronizacja z pamięcią opercyjną
+### Write-through
+Zapis do pamięci cache jest natychmiast odwzorowywany w RAM-ie
+### Write-back
+Pamięć RAM jest oznaczona jako nieaktualna *bitem stanu*.
 
-![[AKO_2024_cz_5.pdf#page=33]]
+---
+# ROM ^[[[AKO_2024_cz_5.pdf#page=49]]]
+**Read-only memory**. Nieulotna, tj. nie wymaga ciągłego zasilania.
+Zawiera:
+- BIOS
+- Adres *pierwszej instrukcji po włączeniu* `F000:FFF0` ([[Adresowanie#Segmentowe]])
+
+>[!Tip] [[AKO_2024_cz_5.pdf#page=52|Pamięć Flash]] pozwala na przechowywanie wielu bitów informacji w jednej komórce.

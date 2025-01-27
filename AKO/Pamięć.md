@@ -1,4 +1,6 @@
 
+>[!Note] Zobacz też: [[Pamięć fizyczna]] 
+
 Pamięć to jest de facto *wektor liczb*.
 Jeśli komórkę tworzy 8 bitów, pamięć ma *organizację bajtową*.
 
@@ -7,6 +9,7 @@ Jeśli komórkę tworzy 8 bitów, pamięć ma *organizację bajtową*.
 # Słowo
 Słowem określa się rozmiar [[Rejestry|rejestru]].
 
+![[Dyrektywy alokacji.png]]
 
 **Przestrzeń adresowa** to zbiór wszystkich liczb które stanowią adresy istniejących komórek w pamięci. Zazwyczaj przestrzeń adresowa ma liczność równą największej możliwej wartości słowa.
 # Znaczność bitów

@@ -1,0 +1,1 @@
+Adres *następnej instrukcji* programu [[Wywoływanie funkcji|wywołującego]].

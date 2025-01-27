@@ -8,7 +8,7 @@ text db '...'
 length = $ - text
 ```
 
-`ORG` *ustawia* licznik lokacji.
+[[Dyrektywa ORG]] *ustawia* licznik lokacji.
 ```
 ORG $+24 ; pomiń następne 24 liniki
 ```

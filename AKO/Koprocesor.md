@@ -39,7 +39,7 @@ Dwa bity na [[#R0 - R7|rejestr]]. Kody oznaczają:
 > Użyj `finit` żeby ustawić nowe [[#^96f97e|ST(0)]].
 4. Prześlij dane koprocesorowi
 > [[Najważniejsze instrukcje]]: `FLD mem` - wyślij na stos lokację mem
-> >[!warning]+ `mem` musi być poprzedzone [[Operator PTR]]!
+> >[!warning]+ `mem` musi być poprzedzone [[Dyrektywa PTR]]!
 > >ALU nie zna [[Kodowanie liczb#Zmiennoprzecinkowe|precyzji]] liczby którą dostaje.
 >
 > >[!warning]+ Komunikacja odbywa się przez [[Pamięć fizyczna]]!

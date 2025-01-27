@@ -103,9 +103,8 @@ Zamiast etykiet używają *adresów zawartych w podanym rejestrze* lub w *obszar
 >[!warning] `loop` nie ustawia żadnych [[Flagi|flag]]
 >Nawet jeżeli dekrementacja wywoła przepełnienie!
 
-## ret
-Wczytuje adres powrotu ze stosu i wykonuje skok bezwarunkowy.
-## call
+## [[Wywoływanie funkcji]]
+### call
 Wywołaj [[Podprogram]] (oznaczony słowem `extern`)
 `call funkcja`
 1. odkłada adres funkcji
@@ -121,7 +120,11 @@ Wywołaj [[Podprogram]] (oznaczony słowem `extern`)
 >```
 >Pamiętaj że używasz przy tym [[Stos|stosu]].
 ^909b56
-## INT
+### ret
+Wczytuje adres powrotu ze stosu i wykonuje skok bezwarunkowy.
+
+---
+### int
 interrupt - [[Podprogram]] systemowy. 
 >[!warning] Nie mylić z [[Przerwanie systemowe]]!
 > *Obsługa* przerwań i podprogramów jest analogiczna, ale to różne rzeczy.
@@ -132,6 +135,8 @@ interrupt - [[Podprogram]] systemowy.
 
 
 Ślad podprogramu systemowego na [[Stos]]: eip, cs, flagi
+### iret
+Kończy obsługę przerwania.
 
 #
 ---

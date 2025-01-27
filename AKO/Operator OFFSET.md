@@ -1,1 +1,0 @@
-Generuje [[Pamięć|adres]] obszaru zamiast jego wartości.

@@ -24,8 +24,8 @@
 		{"id":"c9260838c7fef097","type":"text","text":"# Zmienne statyczne\n[[Przestrzenie nazw]] globalny","x":1812,"y":2547,"width":310,"height":187},
 		{"id":"27d7f89a233010a3","type":"text","text":"Notacja AT&T\n`movl (%co), %dokąd`","x":452,"y":2284,"width":250,"height":60},
 		{"id":"df825ecc9d5d2c8b","type":"file","file":"AKO/Kompilacja.md","x":-1506,"y":299,"width":400,"height":400},
-		{"id":"eeeff628736cbb66","type":"file","file":"AKO/Operator OFFSET.md","x":1392,"y":2734,"width":252,"height":166},
-		{"id":"348df9eaac01a81c","type":"file","file":"AKO/Operator PTR.md","x":1230,"y":2295,"width":335,"height":352},
+		{"id":"eeeff628736cbb66","type":"file","file":"AKO/Dyrektywa OFFSET.md","x":1392,"y":2734,"width":252,"height":166},
+		{"id":"348df9eaac01a81c","type":"file","file":"AKO/Dyrektywa PTR.md","x":1230,"y":2295,"width":335,"height":352},
 		{"id":"649925f2f083c44a","type":"file","file":"AKO/Koprocesor.md","x":-497,"y":228,"width":400,"height":400},
 		{"id":"d4f8e6543c8ced7d","type":"file","file":"Języki Programowania/Wyjątek.md","x":-673,"y":2085,"width":294,"height":239}
 	],
