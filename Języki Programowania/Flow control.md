@@ -11,7 +11,7 @@ W [[Kod maszynowy]] rozróżnia się skok *warunkowy* i *bezwarunkowy*.
 `if, if-else, switch, match`[^1]
 ## Iteracja
 `while, do-while, for`
-## [[Podprogram]]
+# [[Podprogram]]
 
 ---
 [^1]: Wybór można zaimplementować pętlą wykonywaną 0 lub 1 razy. Opierają się na tym niektóre [[Model obliczeń|modele obliczeniowe]].
