@@ -15,7 +15,7 @@ aliases:
 - `SF` - znak
 - `PF` - parzystość
 - `OF` - przepełnienie
-- `INT` - wł/wył obsługa [[Przerwanie systemowe|przerwań]].
+- `IF` - wł/wył obsługa [[Przerwanie systemowe|przerwań]]. ^df39b0
 
 
 Każdy bit odpowiada jakiejś fladze instrukcji dopiero co wykonanej. 

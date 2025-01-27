@@ -1,9 +1,9 @@
-*Procesor* wyposażony jest w wiele grup rejestrów. Na Ako korzystamy z *rejestrów ogólnego przeznaczenia*. Traktujemy je jako lokalne zmienne procesora. Dzięki nim ograniczamy dostępy do [[Pamięć fizyczna|Pamięci]].
+*Procesor* wyposażony jest w wiele grup rejestrów. Traktujemy je jako lokalne zmienne procesora. Dzięki nim ograniczamy dostępy do [[Pamięć fizyczna|Pamięci]].
 #
 ---
 
 # 16-bit
-Od dawna przestarzały, będziemy go używać na kursie.
+Od dawna przestarzały, będziemy go używać na kursie za pomocą [[Tryb rzeczywisty|trybu rzeczywistego]] naa emulatorze systemu DOS.
 #
 ---
 # 32-bit
@@ -23,9 +23,8 @@ Od dawna przestarzały, będziemy go używać na kursie.
 - `esi`, `edi`: indeksy
 - `ebp`: Rejestr bazowy (*base pointer*)
 
-`esp`: [[Stos|Stack]] pointer
-`eip`: READ ONLY ^[[[Najważniejsze instrukcje#^909b56]]]
- instruction pointer
+- `esp`: [[Stos|Stack]] pointer
+- `eip`: READ ONLY ^[![[Najważniejsze instrukcje#^909b56]]] instruction pointer
 #
 ---
 

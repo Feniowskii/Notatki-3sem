@@ -26,12 +26,9 @@ Adres efektywny = `Bazowy + 1/2/4/8 * Indeksowy ± const` ^5bb429
 # z autoinkrementacją
 >[!error] Nieobecny w architekturze Intel x86
 
-*zwiększ zawartość rejestru indeksowego o ilość odczytanych bajtów*
-`mov eax, (ebx)+`
+*zwiększa zawartość rejestru indeksowego o ilość odczytanych bajtów*
 ## z autodekrementacją
-`mov eax, -(ebx)`
-
-[[AKO_2024_cz_3.pdf#page=190]]
 
 # Efektywne
-Adres lokacji pamięci 
+Adres fizycznej lokacji w pamięci.
+![[#^5bb429]]

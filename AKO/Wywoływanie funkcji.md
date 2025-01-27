@@ -1,5 +1,7 @@
-# Wywoływanie funkcji
+[[Podprogram]]
+# Standardy
 ![[Standardy wywołań.png]]
+[[AKO_2024_cz_3.pdf#page=32|... i parę innych]].
 
 >[!Tip] Czyszczenie stosu jako program *wywołujący* (Standard C)
 > ```asm
@@ -17,6 +19,8 @@
 >ENDP
 >```
 >Rozmiar sumaryczny parametrów będzie *dekoratorem* nazwy funkcji! np. `_moja_funkcja@12`
+
+^73d0ca
 
 ![[AKO/Prolog|Prolog]]
 

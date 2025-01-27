@@ -12,7 +12,7 @@ Po zczytaniu procesor już prosi [[Pamięć fizyczna]] o kolejny rozkaz.
 *Rozkaz sterujący* (skokowy) zmieni `eip` po wykonaniu.
 > np. branch, jump, itp.
 
-Rozkaz sterujący *warunkowy* wykona skok jeśli spełniony jest pewien warunek. Najczęściej warunek musi zostać obliczony wcześniej innymi instrukcjami. 
+[[Najważniejsze instrukcje#Skoki|Rozkaz sterujący *warunkowy*]] wykona skok jeśli spełniony jest pewien warunek. Najczęściej warunek musi zostać obliczony wcześniej innymi instrukcjami. 
 
 *Niesterujący* zwiększy licznik po odkodowaniu.
 *Zwiększy*, nie zinkrementuje! Zwiększy się o długość instrukcji i argumentów. [[Kodowanie instrukcji]]

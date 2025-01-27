@@ -1,7 +1,7 @@
 # Obsługa przerwania
->[!Tip] Nie przerywa wykonania rozkazu kiedy ma ustawioną [[Flagi|flagę INT]]
+>[!Tip] Nie przerywa wykonania rozkazu kiedy ma ustawioną [[Flagi|flagę IF]]
 
-Flaga IF pozwala kontrolować czy procesor ma obsługiwać przerwania czy nie
+[[Flagi#^df39b0|Flaga IF]] pozwala kontrolować czy procesor ma obsługiwać przerwania czy nie.
 
 1. odkłada na [[Stos]] flagi i następną instrukcję.
 2. Pobiera z *Tablicy deskryptorów* adres *Procedury obsługi*
@@ -15,14 +15,13 @@ Zajmuje się priorytetyzacją obsługi równocześnych przerwań z różnych urz
 Priorytety są programowalne.
 
 ## APIC
-
-Układy można *kaskadować* w ramach układu APIC. APIC-i mogą być właściwe dla każdego rdzenia procesora. 
+Układy 8259 można *kaskadować* w ramach układu APIC. APIC-i mogą być właściwe dla każdego rdzenia procesora. 
 Zajmuje się mapowaniem kodu przerwania IRQ^[Interrupt Request] na numer deskryptora^[Różne numery w różnych OS-ach!] w tablicy przerwań.
 
 # 
 ---
 ## System symetryczny
-Każdy^[[[#^b1cb5e]]] procesor może realizować obsługę przerwania.
+Każdy^[![[#^b1cb5e]]] procesor może realizować obsługę przerwania.
 - Windows
 Programista *może* zlecić wykonanie konkretnemu procesorowi.
 

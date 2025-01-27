@@ -8,7 +8,7 @@ Stos służy do tymczasowego przechowywania danych, które nie mieszczą się w 
 
 Miejsce na stos jest alokowane automatycznie, wskaźnik mamy w [[Rejestry|rejestrze]] `esp`.
 
->[!important] `ESP` wsazuje na *wierzchołek stosu*, tj. *ostatnią istniejącą wartość*
+>[!important] `ESP` wsazuje na *wierzchołek stosu*, tj. *pierwsze wolne miejsce*
 
 [[Najważniejsze instrukcje#push/pop]] ^eba4d0
 
@@ -23,7 +23,7 @@ Miejsce na stos jest alokowane automatycznie, wskaźnik mamy w [[Rejestry|rejest
 >...ta pamięć już do programu nie należy! [[Przerwanie systemowe]] może niespodziewanie przywłaszczyć obszar pamięci który jeszcze przed chwilą był nasz. Dostęp spowoduje wtedy trudno replikowalny [[Wyjątek]].
 
 >[!note] Abstrakcja
->W [[Tryby adresowania#Chroniony]], [[OS]] może podmieniać nam stos w zależności od obecnego uprzywilejowania.
+>W [[Tryby procesora#Chroniony]], [[OS]] może podmieniać nam stos w zależności od obecnego uprzywilejowania.
 
 ![[Najważniejsze instrukcje#^909b56]]
 [[Wywoływanie funkcji]]

@@ -12,7 +12,7 @@
 
 ## [[Najważniejsze instrukcje]]: `IN` `OUT`
 Służą do dostępu do pamięci urządzenia w *przestrzeni portów*. Są chronione i dostępne tylko dla autoryzowanych programów.
-Z zewnątrz wykorzystujemy [[Funkcja systemowa]] (np. [[Najważniejsze instrukcje#INT]]) która jest zaimplementowana za pomocą instrukcji chronionych.
+Z zewnątrz wykorzystujemy [[Przerwanie systemowe]] które jest zaimplementowane za pomocą instrukcji chronionych.
 Użycie: `in al, 60h` "wczytaj do al"
 
 # [[Przerwanie systemowe]]
@@ -25,13 +25,13 @@ Stanowi alternatywę dla [[Polling|odpytywania]] urządzenia o stan. Zamiast teg
 ---
 
 # Tryb tekstowy
-Poczynając od adresu `000B8000` (znak w $(0,0)$) ([[Tryby adresowania#Fizyczny]])
+Poczynając od adresu `000B8000` (znak w $(0,0)$) ([[Tryby procesora#Rzeczywisty]])
 ![[AKO_2024_cz_4.pdf#page=12]]
 W bajcie atrybutu:
-- m : migotanie
-- i : #todo
+- `m` : migotanie
+- `i` : intensywność koloru tła
 
-## [[Rejestry]] segmentowe
+## [[Tryb rzeczywisty|Rejestry segmentowe]]
 ![[AKO_2024_cz_4.pdf#page=14]]
 
 # Tryb graficzny

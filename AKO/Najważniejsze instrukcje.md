@@ -68,6 +68,16 @@ W [[Kod maszynowy|kodzie maszynowym]] zazwyczaj zajmuje 2 bajty: [[Instrukcja#Ko
 ### Pośrednie
 Zamiast etykiet używają *adresów zawartych w podanym rejestrze* lub w *obszarze danych*. Innymi słowy instrukcja docelowa skoku jest zmienną. Nadpisują `eip`. Przydatne m.in. przy polimorfizmie.
 
+### 
+---
+### Warunkowe
+- [[Flow control#Przepływ prosty|Kontrola przepływu]]: `loop`, `jae`, `jg`, etc.
+### Bezwarunkowe
+- `jmp`
+- [[Wywoływanie funkcji]]: `ret`, `call`, `int`
+
+---
+
 >[!summary]- Tabele skoków i testowanych flag
 > ![[AKO_2024_cz_2.pdf#page=33]]
 > ![[AKO_2024_cz_2.pdf#page=136]]
@@ -110,12 +120,13 @@ Wywołaj [[Podprogram]] (oznaczony słowem `extern`)
 >ret
 >```
 >Pamiętaj że używasz przy tym [[Stos|stosu]].
-
 ^909b56
 ## INT
 interrupt - [[Podprogram]] systemowy. 
 >[!warning] Nie mylić z [[Przerwanie systemowe]]!
 > *Obsługa* przerwań i podprogramów jest analogiczna, ale to różne rzeczy.
+
+^09dee0
 
 ![[Interfejs ABI#^c08508]]
 

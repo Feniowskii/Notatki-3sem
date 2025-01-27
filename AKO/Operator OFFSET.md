@@ -1,1 +1,1 @@
-Wartość rejestru poprzedzonego `offset`em zostanie potraktowana jako adres pożądanej danej
+Generuje [[Pamięć|adres]] obszaru zamiast jego wartości.

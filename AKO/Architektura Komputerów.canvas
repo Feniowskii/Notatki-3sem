@@ -15,7 +15,7 @@
 		{"id":"af6d1404df65d540","type":"file","file":"AKO/Pamięć.md","x":-772,"y":1080,"width":491,"height":440},
 		{"id":"9c24f2655a5a16c3","type":"text","text":"Architektura Harvardzka","x":-622,"y":877,"width":250,"height":60},
 		{"id":"8297fface4e05932","type":"file","file":"AKO/Endian.md","x":-1172,"y":1710,"width":400,"height":400},
-		{"id":"83b891ffd9f02a4d","type":"file","file":"AKO/Tryby adresowania.md","x":452,"y":2864,"width":338,"height":273},
+		{"id":"83b891ffd9f02a4d","type":"file","file":"AKO/Tryby procesora.md","x":452,"y":2864,"width":338,"height":273},
 		{"id":"ed09658766da252d","type":"text","text":"# Wyrównywanie naturalne\nDana powinna znajdować się pod adresem *podzielnym przez jej rozmiar*.\n> Zapisujemy daną XXXX (2B) do adresów parzystych.\n\nTa optymalizacja przyspiesza dostęp do pamięci. Często zajmuje się tym [[Proces kompilacji|kompilator]].\n","x":-1241,"y":1280,"width":269,"height":320},
 		{"id":"92a1483773ce67fb","type":"file","file":"AKO/Kodowanie znaków.md","x":-1620,"y":1626,"width":379,"height":554},
 		{"id":"ef210333d42e9267","type":"file","file":"AKO/Proces kompilacji.md","x":-1082,"y":179,"width":460,"height":640},
