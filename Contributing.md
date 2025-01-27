@@ -1,4 +1,4 @@
->[!Tldr] Żeby zasugerować zmiany, otwórz pull request do repozytorium git'a. [Zobacz jak](https://github.com/github/docs/blob/main/.github/CONTRIBUTING.md)
+Żeby zasugerować zmiany, otwórz pull request do repozytorium git'a ^[[Zobacz jak](https://github.com/github/docs/blob/main/.github/CONTRIBUTING.md)] albo dodaj issue.
 
 >[!warning] Zapoznaj się z [[README]]
 >A zwłaszcza z sekcją [[README#Czego tu nie znajdziecie]].
