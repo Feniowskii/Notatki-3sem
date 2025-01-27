@@ -27,5 +27,7 @@ Miejsce na stos jest alokowane automatycznie, wskaźnik mamy w [[Rejestry|rejest
 
 ![[Najważniejsze instrukcje#^909b56]]
 [[Wywoływanie funkcji]]
+# Ramka stosu
+![[AKO_2024_cz_3.pdf#page=27]]
 
 # [[Interfejs ABI]]

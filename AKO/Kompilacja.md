@@ -1,7 +1,7 @@
 **(asemblacja)**
 Dwuprzebiegowa:
 1. Preprocesor (translacja)
-	Wyrażenia [[Adresowanie#Efektywne]], łańcuchy znaków, [[Dyrektywa OFFSET]], *słownik symboli*.
+	Wyrażenia [[Adresowanie#Efektywne]], łańcuchy znaków, [[Dyrektywa OFFSET]], *słownik symboli*, [[Kodowanie instrukcji]]
 2. Kompilacja właściwa
 	Wyrażenia wykorzystujące [[Licznik lokacji]]
 
