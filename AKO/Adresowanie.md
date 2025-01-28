@@ -2,7 +2,7 @@
 aliases:
   - Tryby adresowania
 ---
-Adres logiczny = [[#Segmentowe|rejestr segmentowy]] + [[#Efektywne|adres efektywny]]
+Adres logiczny = rejestr segmentowy + adres efektywny^[[[Tryby adresowania]]]
 # Natychmiastowe
 Adresowanie literałem, hardcoded w [[Instrukcja#Kod rozkazu|rozkaz]].
 # Bezpośrednie

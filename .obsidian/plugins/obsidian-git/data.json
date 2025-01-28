@@ -1,5 +1,5 @@
 {
-  "commitMessage": "Update {{files}}",
+  "commitMessage": "vault backup: {{date}}",
   "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
   "autoSaveInterval": 0,
   "autoPushInterval": 0,
@@ -15,7 +15,7 @@
   "syncMethod": "merge",
   "customMessageOnAutoBackup": false,
   "autoBackupAfterFileChange": false,
-  "treeStructure": true,
+  "treeStructure": false,
   "refreshSourceControl": true,
   "basePath": "",
   "differentIntervalCommitAndPush": false,
@@ -54,5 +54,5 @@
     "lastShownAuthorDisplay": "initials",
     "lastShownDateTimeFormatOptions": "date"
   },
-  "autoCommitMessage": "Update {{files}}"
+  "autoCommitMessage": "vault backup: {{date}}"
 }

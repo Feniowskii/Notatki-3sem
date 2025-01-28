@@ -29,6 +29,20 @@
       }
     },
     {
+      "query": "path:\"Grafika Komputerowa\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 8519773
+      }
+    },
+    {
+      "query": "path:MiI  ",
+      "color": {
+        "a": 1,
+        "rgb": 5439616
+      }
+    },
+    {
       "query": "path:Matematyka  ",
       "color": {
         "a": 1,
@@ -40,13 +54,6 @@
       "color": {
         "a": 1,
         "rgb": 12746788
-      }
-    },
-    {
-      "query": "path:MiI OR path:\"Grafika Komputerowa\"  ",
-      "color": {
-        "a": 1,
-        "rgb": 6308995
       }
     }
   ],
@@ -60,6 +67,6 @@
   "repelStrength": 11.4583333333333,
   "linkStrength": 1,
   "linkDistance": 121,
-  "scale": 0.5847967781127441,
+  "scale": 1.0300933413650426,
   "close": true
 }

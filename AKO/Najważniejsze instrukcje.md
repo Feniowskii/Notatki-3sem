@@ -37,7 +37,7 @@ Wyjątkowo mnożenie jest jednoargumentowe. W zależności od rozmiaru czynnika 
 ```
 lea ebx, [tag+edi+1]
 ```
-$$\equiv$$
+$$\iff$$
 ```
 mov ebx, offset tag
 add ebx, edi
@@ -82,16 +82,11 @@ Zamiast etykiet używają *adresów zawartych w podanym rejestrze* lub w *obszar
 > ![[AKO_2024_cz_2.pdf#page=33]]
 > ![[AKO_2024_cz_2.pdf#page=136]]
 
-^7a9fd0
-
 | Rodzaj liczby                          | Mnemonik porównania                     |
 | :------------------------------------- | --------------------------------------- |
 | [[Kodowanie liczb#NKB]]                | above/below/equal                       |
 | [[Kodowanie liczb#U2]]                 | greater/lesser/equal                    |
 | [[Kodowanie liczb#Zmiennoprzecinkowe]] | brak; użyj odejmowania w [[Koprocesor]] |
-
-^e04c4b
-
 ## loop
 
 >[!warning] `loop` nie rozszerza swojego zakresu!

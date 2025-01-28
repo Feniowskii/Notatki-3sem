@@ -4,52 +4,107 @@
     "type": "split",
     "children": [
       {
-        "id": "952ccd8a2aed37a1",
+        "id": "94d7369939bf627a",
         "type": "tabs",
         "children": [
           {
-            "id": "2ee341f70d19d504",
+            "id": "02da5e2292fffd19",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AKO/Kodowanie liczb.md",
+                "file": "Matematyka/Analiza Matematyczna/Pochodne.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Kodowanie liczb"
+              "title": "Pochodne"
             }
           },
           {
-            "id": "6c742524d10531e9",
+            "id": "435b7294adf6d078",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Contributing.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Contributing"
+            }
+          },
+          {
+            "id": "ecfffb7f7bf7013c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Contributing.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Contributing"
+            }
+          },
+          {
+            "id": "db5a86d7934ccf34",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AKO/Przerwanie systemowe.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Przerwanie systemowe"
+            }
+          },
+          {
+            "id": "b919ef0453efbe76",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "AKO/AKO_2024_cz_1.pdf"
+                "file": "Matematyka/Analiza Matematyczna/Slajdy/AM_03_RachunekCalkowy.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "AKO_2024_cz_1"
+              "title": "AM_03_RachunekCalkowy"
             }
           },
           {
-            "id": "dbf394aa47db72f7",
+            "id": "8c799311156296a6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "AKO/Pamięć.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "file": "Matematyka/Analiza Matematyczna/Slajdy/AM_04_SzeregiLiczbowe.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Pamięć"
+              "icon": "lucide-file-text",
+              "title": "AM_04_SzeregiLiczbowe"
+            }
+          },
+          {
+            "id": "fc2d535c7c313a36",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Matematyka/Analiza Matematyczna/Slajdy/AM_05_SzeregiPotegowe.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "AM_05_SzeregiPotegowe"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -80,7 +135,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#todo path:AKO  ",
+                "query": "deskryp",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -101,12 +156,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 222.5
+    "width": 351.5
   },
   "right": {
     "id": "5897cac6c619bda5",
@@ -168,10 +222,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AKO/Kodowanie liczb.md"
+                "file": "Contributing.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Kodowanie liczb"
+              "title": "Outline of Contributing"
             }
           },
           {
@@ -189,10 +243,11 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247.5
+    "width": 321.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "daily-notes:Open today's daily note": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -201,51 +256,51 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2ee341f70d19d504",
+  "active": "435b7294adf6d078",
   "lastOpenFiles": [
-    "AKO/AKO_2024_cz_1.pdf",
-    "AKO/Kodowanie liczb.md",
-    "AKO/Najważniejsze instrukcje.md",
-    "AKO/Rejestry.md",
-    "AKO/Pamięć.md",
-    "AKO/Model programowy.md",
-    "AKO/Register-memory architecture.md",
-    "AKO/Load-store architecture.md",
-    "AKO/Kompilacja.md",
-    "AKO/Dyrektywa ORG.md",
-    "AKO/Licznik lokacji.md",
-    "AKO/Mikroarchitektura.md",
-    "AKO/RISC.md",
-    "AKO/Architektura von Neumanna.md",
-    "AKO/Kodowanie instrukcji.md",
-    "AKO/Cykl rozkazowy.md",
-    "AKO/AKO_2024_cz_2.pdf",
-    "AKO/Dyrektywa OFFSET.md",
-    "AKO/Dyrektywa PTR.md",
-    "AKO/Endian.md",
-    "AKO/Tryb rzeczywisty.md",
-    "AKO/Adresowanie.md",
-    "AKO/AKO_2024_cz_5.pdf",
     "AKO/Pamięć fizyczna.md",
-    "AKO/Dyrektywa SEGMENT.md",
-    "AKO/Dyrektywy alokacji.png",
-    "AKO/Przerwanie systemowe.md",
-    "AKO/AKO_2024_cz_4.pdf",
-    "AKO/Tablica wektorów przerwań.md",
-    "AKO/AKO_2024_cz_3.pdf",
-    "AKO/Ślad.md",
-    "AKO/Architektura von Neumanna.canvas",
+    "Contributing.md",
+    "README.md",
+    "AKO/Pamięć.md",
+    "AKO/Proces kompilacji.md",
+    "AKO/Wywoływanie funkcji.md",
     "AKO/Standardy wywołań.png",
+    "AKO/Prolog.md",
+    "Języki Programowania/Podprogram.md",
+    "AKO/Rejestry.md",
+    "AKO/Najważniejsze instrukcje.md",
+    "AKO/Przerwanie systemowe.md",
+    "AKO/Instrukcje koprocesora.md",
+    "AKO/Mnemonik.md",
+    "AKO/Flagi.md",
+    "AKO/Urządzenia zewnętrzne.md",
+    "Matematyka/Matematyka Dyskretna/Grafy.md",
     "MiI/~syncthing~Multimedia i Interfejsy.canvas.tmp",
     "MiI/~syncthing~Ocena interfejsu.md.tmp",
+    "PAA/Algorytmy grafowe.md",
+    "PAA/Graf dość trudny.md",
     "PAA/PAA.canvas",
     "Matematyka/Matematyka Dyskretna/grafy-Kubale.pdf",
+    "Matematyka/Analiza Matematyczna/Całki.md",
+    "Matematyka/Analiza Matematyczna/Pochodne.md",
     "Matematyka/Analiza Matematyczna/Zadania/2-Całki.pdf",
     "Matematyka/Analiza Matematyczna/Slajdy/AM_03_RachunekCalkowy.pdf",
+    "Matematyka/Analiza Matematyczna/Zadania/1-Pochodne.pdf",
+    "Matematyka/Analiza Matematyczna/Zadania/Analiza.pdf",
+    "Matematyka/Analiza Matematyczna/Analiza.pdf",
+    "Matematyka/Analiza Matematyczna/Zadania/Untitled.md",
+    "Matematyka/Analiza Matematyczna/Zadania/3-Szeregi.pdf",
+    "Matematyka/Analiza Matematyczna/Slajdy/AM_05_SzeregiPotegowe.pdf",
+    "Języki Programowania/Prolog.md",
+    "AKO/Najważniejsze funkcje.md",
+    "AKO/Przekaz argumentów.md",
+    "MiI/Przekształcenia obrazów.md",
+    "AKO/Kodowanie liczb.md",
     "Bazy Danych/Bazy Danych.canvas",
     "PAA/Krok_Wstecz.png",
     "MiI/Multimedia i Interfejsy.canvas",
     "Języki Programowania/Języki Programowania.canvas",
+    "AKO/Architektura von Neumanna.canvas",
     "AKO/Architektura Komputerów.sync-conflict-20241025-130207-KMWMDGP.canvas",
     "AKO/Architektura Komputerów.canvas",
     "Grafika Komputerowa/Grafika Komputerowa.canvas",

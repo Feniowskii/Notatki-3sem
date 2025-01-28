@@ -1,3 +1,4 @@
+
 Generuje [[Pamięć|adres]] obszaru zamiast jego wartości.
 ```asm
 .data
