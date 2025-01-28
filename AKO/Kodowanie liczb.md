@@ -2,7 +2,10 @@
 ## NKB
 ## U2
 Zakres: 127 do -128
-%% #todo testy flag skoków %%
+
+![[Najważniejsze instrukcje#^e04c4b]]
+
+---
 ## U1 (nieomawiany)
 ## Znak - moduł
 `±xxx xxxx`

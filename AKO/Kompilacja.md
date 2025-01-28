@@ -5,8 +5,9 @@ Dwuprzebiegowa:
 2. Kompilacja właściwa
 	Wyrażenia wykorzystujące [[Licznik lokacji]]
 
-~~`mov al, ax * 5`~~ - mnożenie w czasie wykonania
-`mov al, 2*5` - wyrażenie czasu translacji
+~~`lea ax, [al * 4]`~~ - mnożenie w czasie wykonania
+`lea ax, [2*5]` - wyrażenie czasu translacji
+[[Najważniejsze instrukcje#lea]]
 
 **Dyrektywa ORG** wpisuje dowolną wartość do [[Licznik lokacji]]. ^5d8bb8
 

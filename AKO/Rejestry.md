@@ -24,14 +24,14 @@ Od dawna przestarzały, będziemy go używać na kursie za pomocą [[Tryb rzeczy
 - `ebp`: Rejestr bazowy (*base pointer*)
 
 - `esp`: [[Stos|Stack]] pointer
-- `eip`: READ ONLY ^[![[Najważniejsze instrukcje#^909b56]]] instruction pointer
+- `eip`: READ ONLY ^[![[Najważniejsze instrukcje#^909b56]]] instruction pointer ^7f4388
 #
 ---
 
 # 64-bit
 Nie ma wyższych ćwiartek[^ćwiartki] (8-16) (są, ale nie są polecane, jest na to czarna magia)
 
-%% #todo Konieczny link do slajdu *Rejestry ogólnego przeznaczenia (64-bitowe) (5)* %%
+![[AKO_2024_cz_1.pdf#page=31]]
 #
 ---
 
