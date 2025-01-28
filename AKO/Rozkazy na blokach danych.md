@@ -23,7 +23,7 @@ Działa podobnie jak [[Najważniejsze instrukcje|LOOP]], w rejestrze [[Rejestry|
 # Rozkazy 
 ### MOVSx 
 > [!warning] > 
-> ### MOVSx to nie to samo co MOVSX
+> ### MOVSx to nie to samo co [[Najważniejsze instrukcje|MOVSX]]
 > tutaj stosuje x jako litere ze zbioru {B, W, D}
  
  MOVSx kopuje zawartość pamięci na który wstazuje ESI do pamieci na którą wskazuje EDI. Nastepnie dodaje do rejestrów wartość analogiczna do x. 
@@ -37,11 +37,16 @@ Działa podobnie jak [[Najważniejsze instrukcje|LOOP]], w rejestrze [[Rejestry|
 ```
 
 ## LODSx
-Robi to co MOVSx ale przesyła zawartość x-bajtową na która wskazuje DI:SI do EAX (lub AX, AL).
+Robi to co MOVSx ale przesyła zawartość x-bajtową na która wskazuje DS:SI do EAX (lub AX, AL).
 ## STOSx
-Działa odwrotnie do LODSx, przesyła zawartość EAX (lub AX, AL) do pamięci na która wskazuje SI:DI. Uzywa się tez go do zerowania obszaru danych wielkości x.
-
-## SCAS
-#todo 
-
-## CMPS
+Działa odwrotnie do LODSx, przesyła zawartość EAX (lub AX, AL) do pamięci na która wskazuje ES:DI. Uzywa się tez go do zerowania obszaru danych wielkości x.
+## SCASx
+Porównuje wartość na która wskazuje ES:DI do tej w EAX (lub AX, AL), ustawia flagi podobnie jak odejmowanie.
+## CMPSx
+W nim możemy wybrać które z ESI, EDI będzie source a które dest. Porównujemy blok danych ESI z blokiem danych EDI. Po każdym porównaniu flagi sa ustawiane. Prefix REP jest tutaj bezużyteczny, zamiast niego używamy:
+```
+REPE --powtarzaj dopóki równe
+REPNE --dopóki nierówne
+REPZ --dopóki zero
+REPNZ --dopóki nie zero
+```
