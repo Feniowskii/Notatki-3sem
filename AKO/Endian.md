@@ -2,7 +2,6 @@
 aliases:
   - Endianowość
 ---
-
 # Little endian
 >Mniejsze niżej
 
