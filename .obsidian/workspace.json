@@ -46,7 +46,34 @@
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Pamięć"
+              "title": "Najważniejsze instrukcje"
+            }
+          },
+          {
+            "id": "e4c792458c754324",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "AKO/Dyrektywy alokacji.png"
+              },
+              "icon": "lucide-image",
+              "title": "Dyrektywy alokacji"
+            }
+          },
+          {
+            "id": "eea4c779d655e4db",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AKO/Najważniejsze instrukcje.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Najważniejsze instrukcje"
             }
           }
         ]
@@ -239,6 +266,18 @@
     "MiI/~syncthing~Multimedia i Interfejsy.canvas.tmp",
     "MiI/~syncthing~Ocena interfejsu.md.tmp",
     "PAA/PAA.canvas",
+    "PAA/Algorytm.md",
+    "PAA/bedra.pdf",
+    "PAA/wzorek.md",
+    "PAA/Rekurencja.md",
+    "PAA/Algorytmy rekurencyjne (Giaro).md",
+    "PAA/Złożoność czasowa.md",
+    "Języki Programowania/Organizacja programu.md",
+    "Matematyka/Matematyka Elementarna/Funkcje/Wielomianowe.md",
+    "PAA/Problemy decyzyjne.md",
+    "PAA/Algorytmy grafowe.md",
+    "Matematyka/Matematyka Dyskretna/Grafy.md",
+    "PAA/Problemy optymalizacyjne.md",
     "Matematyka/Matematyka Dyskretna/grafy-Kubale.pdf",
     "Matematyka/Analiza Matematyczna/Zadania/2-Całki.pdf",
     "Matematyka/Analiza Matematyczna/Slajdy/AM_03_RachunekCalkowy.pdf",
@@ -250,8 +289,6 @@
     "AKO/Architektura Komputerów.canvas",
     "Grafika Komputerowa/Grafika Komputerowa.canvas",
     "Grafika Komputerowa/CIE-XYZ.png",
-    "PAA/ćwiczenia.webp",
-    "Bazy Danych/Bazy Danych Projekt.canvas",
-    "PAA/Łagodne Wprowadzenie.canvas"
+    "PAA/ćwiczenia.webp"
   ]
 }
