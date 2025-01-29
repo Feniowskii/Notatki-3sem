@@ -22,8 +22,8 @@ $2^n, 2^{n-1},...,2^0 . 2^{-1}, 2^{-2},...$
 >[!info] Wykładnik ma **bias**
 >Jest sztucznie *zwiększony* o +127 względem NKB, żeby nie kodować go jako U2
 
-**32-bit**: 8 bit wykładnik 
-**64-bit:** 11 bit wykładnik
+- #32bit: 8 bit wykładnik 
+- #64bit: 11 bit wykładnik
 ## Temporary real
 
 Liczba 80-bitowa stosowana przez [[Koprocesor]].

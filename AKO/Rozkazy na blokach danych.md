@@ -1,4 +1,5 @@
-Jeżeli chcemy wykonać jedną instrukcje na dużym bolu danych
+Jeżeli chcemy wykonać jedną instrukcje na dużym bloku 
+danych
 >[!tldr]- Slajdy
 >![[AKO_2024_cz_3.pdf#page=189]]
 
@@ -14,9 +15,10 @@ Jeżeli chcemy wykonać jedną instrukcje na dużym bolu danych
 	- DE=1 Zmniejszenie rejestrów EDI/ESI o ilość bajtów zgodną z rozkazem (1,2 lub 4)
 
 # Przedrostek REP
+
 Działa podobnie jak [[Najważniejsze instrukcje|LOOP]], w rejestrze [[Rejestry|ECX]] należy umieścić wielkość bloku danych, uwzględniając wielkość pojedyńczej jednostki danych.
 > [!example] 
-> > Chcemy skopiować tablice 58 słów do innego miejsca w pamięci. Daltego że słowo = 2bajty, rzeczywisty rozmiar bloku danych to 116 bajtów.
+> > Chcemy skopiować tablice 58 słów do innego miejsca w pamięci. Dlatego że słowo = 2bajty, rzeczywisty rozmiar bloku danych to 116 bajtów.
 > > ```
 > > MOV ECX, 58
 > > REP MOVSW
@@ -24,9 +26,9 @@ Działa podobnie jak [[Najważniejsze instrukcje|LOOP]], w rejestrze [[Rejestry|
 ### MOVSx 
 > [!warning] > 
 > ### MOVSx to nie to samo co [[Najważniejsze instrukcje|MOVSX]]
-> tutaj stosuje x jako litere ze zbioru {B, W, D}
+> tutaj stosuje x jako znacznik rozmiaru danych (B, W, D)^[Byte, Word, Double word]
  
- MOVSx kopuje zawartość pamięci na który wstazuje ESI do pamieci na którą wskazuje EDI. Nastepnie dodaje do rejestrów wartość analogiczna do x. 
+ MOVSx kopiuje zawartość pamięci na który wskazuje ESI do pamięci na którą wskazuje EDI. Następnie dodaje do rejestrów rozmiar danej w bajtach.
  
  Kod `MOVSB` jest analogiczny do:
  ```
@@ -35,7 +37,7 @@ Działa podobnie jak [[Najważniejsze instrukcje|LOOP]], w rejestrze [[Rejestry|
  MOV [EDI], AL
  INC EDI
 ```
-
+Z tym, że zachowuje wartość `AL`.
 ## LODSx
 Robi to co MOVSx ale przesyła zawartość x-bajtową na która wskazuje DS:SI do EAX (lub AX, AL).
 ## STOSx
@@ -50,3 +52,6 @@ REPNE --dopóki nierówne
 REPZ --dopóki zero
 REPNZ --dopóki nie zero
 ```
+
+^c7e432
+

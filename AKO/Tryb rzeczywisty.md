@@ -1,4 +1,4 @@
-Procesor startuje program w trybie 16bitowym rzeczywistym i oddaje kontrolę w trybie #32bit owym chronionym.
+Procesor startuje program w trybie #16bit owym rzeczywistym i oddaje kontrolę w trybie #32bit owym chronionym.
 
 # Segmenty
 adres fizyczny = rejestr segmentowy<<4 + offset
