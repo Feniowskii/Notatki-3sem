@@ -1,5 +1,5 @@
 # Współczynnik kompresji
-1:100, 1:3 etc.
+3:1, 100:1 etc.
 # Problemy
 - symetria czasowa
 > czas kompresji vs. czas dekompresji: istotne przy przesyłaniu danych w czasie rzeczywistym, np. wideorozmowy
@@ -17,7 +17,7 @@ Wykorzystuje właściwości kompresowanego medium
 - użyty przetwornik
 - urządzenie wyjściowe
 - percepcja człowieka
-Pozwalaja na kompresję nawet jak 1:5-500.
+Pozwalaja na kompresję nawet jak 5-500 : 1.
 # 
 ---
 

@@ -6,14 +6,7 @@ Interfejs pośredniczy między urządzeniem a użytkownikiem. Człowiek dokonuje
 - Pismo odręczne
 - Ruch gałek ocznych
 
-# Modele interfejsów
-
-## Model użytkownika
-Jak [[MiI/Użytkownik|Użytkownik]] widzi program ("jak się tego używa")
-## Model programisty
-"Jak to działa"
-## Model projektanta
-"Jak się to obsługuje"
+# [[Modele interfejsów]]
 
 ---
 # [[Ocena interfejsu]]
@@ -34,8 +27,8 @@ Metoda szacowania:
 - Czas uczenia się ~ ±17s na zdanie GOMS, ±7s na naukę metody.
 - Spójność ~ długość opisu w języku GOMS.
 
-![[.pdf#page=37]]
+![[MiI Interfejsy.pdf#page=37]]
 
-# Modele opisowe
+# Modele pojęciowe
 "Jak użytkownik postrzega interfejs"
-![[.pdf#page=48]]
+[[MiI Interfejsy.pdf#page=48]]
