@@ -4,6 +4,7 @@
 
 # Całki elementarne
 $\int a^x dx = a^x \cdot \frac{1}{\ln a}$
+![[Pochodne#Pochodne elementarne]]
 # Całki niewłaściwe
 $\int_a^b f(x)dx$ gdzie $f$ jest nieciągła w $a$ lub $b$, albo $a$ lub $b = \infty$
 >[!tip] Zastosuj limit
@@ -18,7 +19,13 @@ int f'/f = ln|f| + C
 int f(ax+b) = 1/a f(ax+b) + C
 # Podstawienia trygonometryczne
 >[!tip] iloczyn sin/cos
->sinus do potęgi nieparzystej -> podstaw u = cos, i *vice versa*
+>sinus do potęgi nieparzystej -> podstaw $u = \cos x$, i *vice versa*
+>oba do potęgi parzystej -> podstaw $u = \tan x$ ^[[[AM_03_RachunekCalkowy.pdf#page=116]]]
+>>wtedy $x = \arctan u$
+>>$\sin x = \frac{u}{\sqrt{1+u^2}}$ 
+>>$\cos x = \frac{1}{\sqrt{1+u^2}}$
+>
+>[[AM_03_RachunekCalkowy.pdf#page=118|Podstawienie uniwersalne]]
 
 # Zastosowania
 >[!info] Wartość średnia funkcji 

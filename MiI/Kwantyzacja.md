@@ -1,0 +1,1 @@
+Określenie możliwych wartości sygnału z pewna dokładnością

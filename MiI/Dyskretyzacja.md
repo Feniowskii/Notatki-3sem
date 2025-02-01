@@ -1,0 +1,1 @@
+Określenie punktów pomiaru w przestrzeni

@@ -97,27 +97,27 @@ Oparte o rozdzielczość ludzkiego ucha.
 Nie traci informacji.
 ## Przykładowe metody
 - Run Length Encoding
-> dwie 1, pięć 9, etc.
+> dwie 1-ki, pięć 9-ek, etc.
 > nieskuteczna dla danych z szumem
 - metody słownikowe
-> LZ77,78, LZW
+> LZ77, 78, LZW
 - kodowania entropijne
 > Huffman, arytmetyczne
 - metody statystyczne (m.in. Huffman)
 > statyczne (wyprowadzona tabela)
 > dynamiczne (wyprowadzane automatycznie)
 > adaptacyjne (modyfikacja tabeli statycznej)
-wada: słownik też trzeba przechować. Zmniejszona skuteczność dla małych plików.
+> wada: słownik też trzeba przechować. Zmniejszona skuteczność dla małych plików.
 
 Skuteczność kompresji bezstratnej:
 
 |                     | Osiągnięta      | Potrzebna |
 | ------------------- | --------------- | --------- |
-| [[Kompresja#Obraz]] | ±2:1,  max. 3:1 |           |
-| [[Kompresja#Audio]] | ±10:1           |           |
-#todo slajd
-
-Względnie niski poziom kompresji, ok. 1:3
+| [[Kompresja#Obraz]] | ±2:1,  max. 3:1 | 5-50:1    |
+| [[Kompresja#Audio]] | ±10:1           | 5-20:1    |
+| [[#Wideo]]          |                 | 5-300:1   |
+^[[[MiI 03 Compression.pdf#page=6]]]
+Względnie niski poziom kompresji, ok. 3:1
 #
 ---
 # Wybrane formaty kompresji
