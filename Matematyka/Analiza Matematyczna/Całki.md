@@ -28,10 +28,9 @@ int f(ax+b) = 1/a f(ax+b) + C
 >[[AM_03_RachunekCalkowy.pdf#page=118|Podstawienie uniwersalne]]
 
 # Zastosowania
->[!info] Wartość średnia funkcji 
->$$\frac{1}{a-b} \int_a^b f(x) dx$$
+## Wartość średnia
+$$\frac{1}{a-b} \int_a^b f(x) dx$$
 
->[!info] Objętości
-># Metoda dysków
->
-># Metoda walców
+## Objętości
+### Metoda dysków
+### Metoda walców

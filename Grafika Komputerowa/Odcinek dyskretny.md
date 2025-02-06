@@ -1,7 +1,3 @@
----
-tags:
-  - "#todo"
----
 # Metody rysowania
 ## Algorytmy numeryczne podstawowe (brute force)
 Oparte na geometrycznym równaniu prostej $y = ax+b$
@@ -12,3 +8,6 @@ Oparte na geometrycznym równaniu prostej $y = ax+b$
 
 ## Algorytmy warunkowe
 ### Algorytm Bresenhama
+### Algorytm Gilla
+
+## Algorytmy strukturalne

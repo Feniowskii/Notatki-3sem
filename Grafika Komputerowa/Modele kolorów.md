@@ -9,17 +9,26 @@ Transformacja układu CIE RGB która zapewnia dodatnie składowe. Abstrakcja uni
 >[!note] Ograniczenia sprzętowe
 >Na powyższym diagramie w ramach figury leżą wszystkie postrzegalne ludzkim okiem kolory (wg [[Teoria Younga-Helmholtza]]). Wyświetlacz używa tylko [[Modele kolorów#RGB|niektórych dostępnych barw]].
 
-Przestrzeń barw jest mniej więcej ostrosłupem (tzw. *podkową*).
+Przestrzeń barw jest mniej więcej ostrosłupem (ma podstawę *podkowy*).
 Na Y jest luminancja, na XZ: barwa.
 Standardowym wycinkiem jest przecięcie przez płaszczyznę $X+Y+Z=1$. 
 Na wskroś punktu białego leżą *kolory dopełniające*.
 Problem: gradient kolorów nie jest wszędzie równomierny (taka sama odległość nie oznacza równie "różnych" kolorów).
+
+---
 ## CIE LUV
 [[Przekształcenia#Nieliniowe|Nieliniowy]] z CIE XYZ
-**Percepcyjna jednorodność**: Różnica we wrażeniu jest proporcjonalna do odległości. L - jasność, U - RG, V - YG
-Kolor cechują chroma $c_{ab}^* = \sqrt{A^2 + B^2}$ (odległość od bieli) i odcień $h_{ab}^* = \arctan{\frac{B}{A}}$ (kierunek)
+- L - jasność 
+- U - RG
+- V - YG
+**Percepcyjna jednorodność**: Różnica we wrażeniu jest proporcjonalna do odległości. 
+Kolor cechują:
+- chroma $c_{ab}^* = \sqrt{A^2 + B^2}$ (odległość od bieli)
+- odcień $h_{ab}^* = \arctan{\frac{B}{A}}$ (kierunek)
 ## CIE LAB
 Opisuje barwy światła odbitego. Transformacja nieliniowa modelu [[Kolor#CIE XYZ]].
+
+---
 ## TekHVC
 **Jednorodny percepcyjnie**. Zależny nieliniowo z CIE.
 Wykorzystuje intuicyjne składowe ([[Kolor#HSV]]). 
@@ -44,14 +53,16 @@ V: odległość od czerni %% #todo zdj z prostokątem hsv: zazębione trójkąty
 > Hue Lightness Saturation
 
 Jasność 0.5 (szary) jest punktem wyjścia dla kolorów podstawowych. Powyżej 0.5 wszystkie kolory dążą do bieli.
+
+---
 ## CMY(K)
 > Cyan Magenta Yellow (blacK)
 > *cyjan fuksja żółty (czarny)*
 
 Mieszanie [[Kolor#Subtraktywne]]. Czerń jest używana w drukarkach dla poprawy jakości czerni bez używania dużych ilości pigmentu oraz przyspieszenia schnięcia (schnie jeden tusz zamiast trzech).
 ### CMY -> CMYK
-Wyciągamy część wspólną CMY do $K = k\cdot \min (C,M,Y)$. W praktyce wyciągamy tylko pewną część $k$ od 0 do 1 dobieraną doświadczalnie.
-$C, M, Y -= K$
+1. Wyciągamy część wspólną CMY do $K = k\cdot \min (C,M,Y)$. W praktyce wyciągamy tylko pewną część $k$ od 0 do 1 dobieraną doświadczalnie.
+2. $C, M, Y -= K$
 
 ---
 ## YUV, YIQ

@@ -1,0 +1,1 @@
+# Skutek uboczny - update anomaly

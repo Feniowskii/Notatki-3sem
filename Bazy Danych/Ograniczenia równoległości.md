@@ -7,3 +7,5 @@
 # Prawo Amdahla
 $$ \text{max przysp.} = \frac{1}{(1-p)+\frac{p}{\text{liczba węzłów}}}$$
 gdzie $p$ to paralelizowalność problemu
+
+![[CAP]]

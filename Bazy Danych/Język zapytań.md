@@ -9,4 +9,5 @@ Składa się z:
 2. DML (Data Manipulation Language) - sposób edytowania danych ^e3fc8c
 3. DCL (Data Control Language) - kontroluje dostęp do danych (concurrency, bezpieczeństwo) ^62d9fb
 ---
-[[SQL]]
+Polecenia języka [[SQL]]
+![[SQL#Core SQL]]

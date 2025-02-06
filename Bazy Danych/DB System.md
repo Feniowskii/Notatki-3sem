@@ -5,7 +5,7 @@ aliases:
 ---
 # Elementy systemu
 - external storage
-	który musi być *permanentny* oraz *reliable* 
+	który musi być *permanentny* oraz *niezmienny*^[reliable]
 - [[Database Management System]]
 - [[Język zapytań]]
 

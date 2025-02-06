@@ -98,3 +98,5 @@ WHERE X = A or X = B
 ```sql
 WHERE X IN (A, B)
 ```
+
+# Złączenia (JOIN)

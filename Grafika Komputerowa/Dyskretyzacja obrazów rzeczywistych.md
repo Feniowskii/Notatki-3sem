@@ -1,5 +1,3 @@
-
-
 # Próbkowanie
 **wybór [[Reprezentacja obrazów#^39afbd|rastra]]**
 
@@ -14,6 +12,7 @@ Problemy:
 - Zwiększenie rozdzielczości
 - Przesunięcie rastra
 - **Antyaliasing**: gradient na krawędziach kształtu.
+- [[#Drżenie (dithering)]]
 Funkcje wagowe antyaliasingu: 
 - prostopadłościenna (bezwagowa)
 - ostrosłupowa (wagowa, preferuje kolor środka)
@@ -24,13 +23,15 @@ Funkcje wagowe antyaliasingu:
 # Kwantyzacja
 **ograniczenie [[Modele kolorów|puli kolorów]]**
 
-## Poprawa
+## Poprawa kwantyzacji
 ### Drżenie (dithering)
 gradient za pomocą gęstości pikseli w kolorach sąsiednich
 Losowy/nielosowy
 Metody nielosowe:
 - progowanie
-- halftone
+- halftone (wielkość piksela = odwrotna jasność) (przydatne w druku)
+- uporządkowane
 ### Dyfuzja błędów (*error diffusion*)
-[[Dyfuzja Floyda-Steinberga]] (WOW)
-Dodajemy błąd kwantyzacji do następnych pikseli.
+**Dyfuzja Floyda-Steinberga**: Dodajemy po części błędu kwantyzacji do sąsiednich pikseli.
+
+## Mikrowzory

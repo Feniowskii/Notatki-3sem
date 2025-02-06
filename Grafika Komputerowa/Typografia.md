@@ -1,7 +1,8 @@
 # Czcionka
 Wytłoczka pojedynczego znaku pisma
 # Font
-Font = [[#Krój]] (Arial) + rozmiar (12) + 
+Font = [[#Krój]] (Arial) + [[#Stopień pisma]] (12) + [[#Odmiany krojów|Odmiana kroju]] (bold)
+
 ## Krój
 Zestaw znaków we wspólnej stylistyce:
 - styl
@@ -9,6 +10,7 @@ Zestaw znaków we wspólnej stylistyce:
 - proporcja (wysokość, szerokość, szeryf)
 - dukt (sposób kreślenia liter)
 - stopień
+
 ### Typy krojów
 - Jedno/dwu^[Nawet jeśli mają więcej niż 2 szerokości, nazywa się je dwuelementowymi]elementowe (jednolite/różne szerokości linii)
 - Stałe (`monospace`)/proporcjonalne
@@ -19,6 +21,15 @@ Zestaw znaków we wspólnej stylistyce:
 - pisankowe (odręczne)
 - nietypowe (ksenotypy zamiast liter)
 ---
+
+### Odmiany krojów
+- Grubość (mierzona pierwszą pionową kreską `n` w [[#System Didota|stopniu 10 p.]])
+- Szerokość (mierzona długością `OHamburgefonsz` w stopniu 10p.)
+- Pochylenie
+	- pismo proste
+	- kursywa prawa/lewa
+
+
 # Stopień pisma
 Rozmiar pisma
 mierzony w *firetach* \[em] = 2en (półfiretów)
@@ -33,14 +44,6 @@ W większości krojów em równa się szerokości najszerszej litery
 
 ## PostScript
 1 pt = 1/72 cala = 0,3528 mm
-
-# Odmiana kroju
-- Grubość (mierzona pierwszą pionową kreską `n` w [[#System Didota|stopniu 10 p.]])
-- Szerokość (mierzona długością `OHamburgefonsz` w stopniu 10p.)
-- Pochylenie
-	- pismo proste
-	- kursywa prawa/lewa
-
 
 # [[pdf#Linie pisma]] #todo
 
