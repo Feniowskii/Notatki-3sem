@@ -16,7 +16,7 @@
 		{"id":"1032e4c8c68f7084","type":"text","text":"Jeżeli strumień jest niezerowy, to pole jest *źródłowe*","x":-820,"y":840,"width":250,"height":60},
 		{"id":"c04996009db3a26b","type":"text","text":"#stała $k$","x":280,"y":860,"width":250,"height":60},
 		{"id":"23b8ad880d81f2f8","type":"text","text":"$\\epsilon_r$: przenikliwość elektryczna ośrodka","x":564,"y":960,"width":250,"height":60},
-		{"id":"9786d92a55fcdbf9","type":"text","text":"$F = \\frac{1}{4π \\epsilon_r \\epsilon_0} \\cdot \\frac{q^1q^2}{r^2}$","x":640,"y":1120,"width":250,"height":60},
+		{"id":"9786d92a55fcdbf9","type":"text","text":"$F = \\frac{1}{4π \\epsilon_r \\epsilon_0} \\cdot \\frac{q_1q_2}{r^2}$","x":640,"y":1120,"width":250,"height":60},
 		{"id":"eb50e9ee1d9af0bf","type":"text","text":"Wektor indukcji $\\vec D$","x":-215,"y":1122,"width":250,"height":60},
 		{"id":"07f956aa85bd8df6","type":"text","text":"Strumień wektora indukcji = suma ładunków na powierzchni ","x":-243,"y":1182,"width":307,"height":85},
 		{"id":"6f3a69aeb2535581","type":"text","text":"Energia potencjalna oddziaływania między ładunkami:\n$\\frac{q_1 q_2}{r}$\n>[!warning] wymaga dwóch ładunków\n\nUjemna energia oznacza przyciąganie, dodatnia - odpychanie.","x":398,"y":1233,"width":297,"height":187},
@@ -28,7 +28,7 @@
 		{"id":"a9189af007600657","type":"file","file":"Fizyka/Współczesna/Prawo Gaussa.md","x":-1120,"y":562,"width":300,"height":173},
 		{"id":"9730dd1e38f78138","type":"text","text":"elektryczny moment dipolowy\n$\\vec{p_e} = q \\cdot l$\n$q$ - ładunek jednego biegunu\n$l$ - odległość między biegunami\n\n[[Potencjał]] od dipola:\n$$\nV_p = \\frac{k\\vec{p_e} \\cdot \\vec{r}}{r^3}\n$$\ngdzie:\n$r$ - odległość od środka dipola\n","x":740,"y":2020,"width":307,"height":298},
 		{"id":"7ad3a73e4d6f5b35","type":"text","text":"#prawo \n**Zasada superpozycji**\n\n$F$ wypadkowa na cząstce to suma sił między pojedynczymi cząstkami\n","x":920,"y":768,"width":280,"height":174},
-		{"id":"d467320592d448fe","x":431,"y":2169,"width":247,"height":221,"type":"text","text":"Na dipol w polu działa moment obrotowy\n$$\\vec M = \\vec p_e \\times \\vec E$$\n$$|\\vec M|= |\\vec p_e|\\sin{\\alpha}$$\n>[!tip] w polu jednorodnym środek dipola nie przemieszcza się\n\n"}
+		{"id":"d467320592d448fe","type":"text","text":"Na dipol w polu działa moment obrotowy\n$$\\vec M = \\vec p_e \\times \\vec E$$\n$$|\\vec M|= |\\vec p_e|\\sin{\\alpha}$$\n>[!tip] w polu jednorodnym środek dipola nie przemieszcza się\n\n","x":431,"y":2169,"width":247,"height":221}
 	],
 	"edges":[
 		{"id":"c1258027a210a797","fromNode":"b49d7517471beda7","fromSide":"right","toNode":"b84fe0a18297996e","toSide":"left","fromEnd":"arrow"},

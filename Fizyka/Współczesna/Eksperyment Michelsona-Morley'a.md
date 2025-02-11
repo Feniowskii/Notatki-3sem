@@ -1,0 +1,1 @@
+Wniosek: ![[Postulaty Einsteina#^afd45c]] 

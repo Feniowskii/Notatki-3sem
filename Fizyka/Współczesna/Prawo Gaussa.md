@@ -1,2 +1,1 @@
-#Prawo Gaussa #todo
-Wpływ na strumień mają tylko ładunki wewnątrz rozpatrywanej powierzchni 
+Wpływ na strumień pola mają tylko ładunki wewnątrz rozpatrywanej powierzchni.

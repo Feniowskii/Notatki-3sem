@@ -1,0 +1,1 @@
+Prąd wytworzony pod wpływem zmiennego pola przeciwdziała zmianie pola.
