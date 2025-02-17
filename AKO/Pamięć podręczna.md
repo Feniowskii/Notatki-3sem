@@ -5,32 +5,67 @@ aliases:
 > [[AKO_2024_cz_5.pdf#page=30]]
 
 
+Bity adresu fizycznego dzielą się na etykietę (tag), numer linii, oraz offset w bloku.
 
-# Budowa pamięci cache
+W pamięci [[#Cache]] trzymamy bloki pamięci RAM
 
-Pamięć cache jest podzielona na:
-- Linie
-- Bloki
+---
+## Linie
+Linia pamięci podręcznej to *slot*, w którym trzyma się blok pamięci.
+W [[#Odwzorowanie bezpośrednie]] numer linii odpowiadający adresowi jest wpisany w adres.
 
+## Etykiety
+Etykieta (*tag*) to *identyfikator* bloku pamięci.
+Używa się jej by stwierdzić, czy dany blok jest obecnie odwzorowany gdzieś w pamięci podręcznej.
 
+---
 ## Odwzorowanie bezpośrednie
-Jeżeli dany blok pamięci znajduje się w cache'u, to trafia zawsze w to samo miejsce.
+Linia, która zostanie zajęta przez pobierany blok jest wyznaczona przez *numer linii* adresu.
 
+>Adres fizyczny = `__tag__|_nr linii_|__offset__`
 
-## Synchronizacja z pamięcią operacyjną
-### Write-through
+^e9d535
+
+Sprawdzając, czy dany blok jest zapisany w cache'u:
+1. wyznaczamy `nr linii`
+2. porównujemy `tag` w linii
+3. jeżeli się zgadza, odczytujemy pamięć bloku w `offset`
+4. jeżeli nie, dociągamy z RAMu
+## Odwzorowanie asocjacyjne
+Linie cache mogą być zajęte przez dowolny blok pamięci. 
+
+> `___22bit tag___|_10bit offset_`
+> Na 22 bitach zapamiętujemy *etykietę* bloku, na 10 bitach offset w ramach bloku.
+
+Pozyskując dane:
+1. `tag` jest porównywany z etykietami wszystkich zapisanych bloków
+2. jeżeli mamy gdzieś zapisany ten blok, odczytujemy pamięć bloku w `offset`
+3. jeżeli nie, dociągamy z RAMu
+
+>[!tip] Porównywanie tagów bloków jest zaimplementowane hardware'owo, nie mikroprocesorem.
+
+## Odwzorowanie wielokanałowe
+Łączy zalety [[#Odwzorowanie bezpośrednie]] i [[#Odwzorowanie asocjacyjne]].
+![[#^e9d535]]
+
+Pierwsza warstwa ma odwzorowanie bezpośrednie. Wyznacza linię, w której możemy znaleźć blok.
+==**Linia** składa się tutaj z całego układu pamięci asocjacyjnej.== W ramach linii interesuje nas etykieta.
+
+1. wyznaczamy `nr linii`
+2. ~~porównujemy `tag` w linii~~ ==sprawdzamy, czy `tag` jest zapisany gdzieś na linii==
+3. jeżeli się zgadza, odczytujemy pamięć bloku w `offset`
+4. jeżeli nie, dociągamy z RAMu
+
+---
+# Synchronizacja z pamięcią operacyjną
+- Write-through
 Zapis do pamięci cache jest natychmiast odwzorowywany w RAM-ie
-### Write-back
+
+- Write-back
 Pamięć RAM jest oznaczona jako nieaktualna *bitem stanu*.
 
 ---
 
 
-# Odwzorowanie asocjacyjne
-Używane przez RAM przy znajdowaniu komórek [[Pamięć fizyczna|pamięci fizycznej]].
-## Etykiety
-	 22bit _______|___ 10bit
-Na 22 bitach zapamiętujemy *etykietę* bloku, na 10 bitach offset w ramach bloku.
-W pamięci [[#Cache]] trzymamy bloki.
 
-# Odwzorowanie wielokanałowe
+
