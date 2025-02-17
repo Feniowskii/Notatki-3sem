@@ -31,11 +31,14 @@ Sprawdzając, czy dany blok jest zapisany w cache'u:
 2. porównujemy `tag` w linii
 3. jeżeli się zgadza, odczytujemy pamięć bloku w `offset`
 4. jeżeli nie, dociągamy z RAMu
+
+
 ## Odwzorowanie asocjacyjne
 Linie cache mogą być zajęte przez dowolny blok pamięci. 
 
-> `___22bit tag___|_10bit offset_`
-> Na 22 bitach zapamiętujemy *etykietę* bloku, na 10 bitach offset w ramach bloku.
+> `___tag___|_offset_`
+> Na przykład 10b offsetu pozwoli zaadresować bloki o rozmiarach 2^10 b = 1kB.
+> Pozostałe 22 bity będą identyfikatorem bloku. 
 
 Pozyskując dane:
 1. `tag` jest porównywany z etykietami wszystkich zapisanych bloków
