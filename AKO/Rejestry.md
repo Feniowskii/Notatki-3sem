@@ -31,10 +31,18 @@ Od dawna przestarzały, będziemy go używać na kursie za pomocą [[Tryb rzeczy
 # 64-bit
 Nie ma wyższych ćwiartek[^ćwiartki] (8-16) (są, ale nie są polecane, jest na to czarna magia)
 
+Dodatkowo dochodzą:
+- rejestry `R0-R15`
+Młodsze bity są nazywane rozmiarami słów (`R8D` = młodszy `dword` (32 bity, jak `eax`))
+- rejestry [[Instrukcje SSE|XMM]], [[Instrukcje AVX|YMM]], [[Instrukcje AVX|ZMM]]
+Używane do operacji na liczbach zmiennoprzecinkowwych (zamiast [[Koprocesor]]a) oraz [[Wywoływanie funkcji|zwracania wartości]].
+
 ![[AKO_2024_cz_1.pdf#page=31]]
 #
 ---
 
 # [[Flagi|Rejestr stanu procesora]]
+
+# [[Instrukcje SSE#Rejestry XMM]]
 
 [^ćwiartki]: 1/4 32 = 1/8 64

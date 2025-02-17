@@ -5,10 +5,13 @@ aliases:
 Adres logiczny = [[#Segmentowe|rejestr segmentowy]] + [[#Efektywne|adres efektywny]]
 # Natychmiastowe
 Adresowanie literałem, hardcoded w [[Instrukcja#Kod rozkazu|rozkaz]].
+`mov eax, 5`
 # Bezpośrednie
 W [[Instrukcja#Kod rozkazu]] jest wpisany literał [[Pamięć fizyczna|adresu]].
+`mov eax, obszar`
 # Indeksowe
 [[Adresowanie#Bezpośrednie]] z przesunięciem o liczbę bajtów.
+`mov eax, obszar[4]`
 ## Bazowo-indeksowe
 
 ^ebde66
@@ -30,9 +33,9 @@ Adres efektywny = `Bazowy + 1/2/4/8 * Indeksowy ± const` ^5bb429
 
 # Efektywne
 Adres fizycznej lokacji w pamięci.
-![[#^5bb429]]
+![[#^5bb429]] ^04e618
 
 # Segmentowe
-![[Tryb rzeczywisty#Segmenty]]
-# Asocjacyjne
-Używane przez RAM przy znajdowaniu komórek [[Pamięć fizyczna|pamięci fizycznej]].
+![[Tryb rzeczywisty#^3e3f99]]
+
+![[Pamięć fizyczna#Adresowanie asocjacyjne]]

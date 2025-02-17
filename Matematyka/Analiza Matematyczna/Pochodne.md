@@ -10,9 +10,9 @@ $$ f'(x_0) = \lim_{h \to 0}{ \frac{f(x_0+h)-f(x_0)}{h} }$$
 >Funkcja różniczkowalna w $x_0$ musi być ciągła w $x_0$.
 ## Pochodne elementarne
 - C ' = 0
-- x^a ' = a x^a-1 
+- $[x^a] '= a x^{a-1}$ 
 - e^x ' = e^x 
-- a^x ' = a^x lna
+- $[a^x] ' = a^x \ln a$
 - ln|x| ' = 1/x
 - $[\log_a(x)]' = \frac{1}{x} \cdot \frac{1}{\ln a}$
 
@@ -22,7 +22,7 @@ $$ f'(x_0) = \lim_{h \to 0}{ \frac{f(x_0+h)-f(x_0)}{h} }$$
 - $\cot' x = -\frac{1}{\sin^2x}$
 
 arcsin' = $\frac{1}{ \sqrt{1-x^2} }$ = -arccos'
-arctan' = $\frac{1}{1+x^2}$ = -arccot'
+arctan' = $\frac{1}{1+x^2}$ = -arccot' ^83369c
 ## Reguły
 - **Iloczynowa:** $d/dx f(x)g(x) = f'(x)g(x) + f(x)g'(x)$
 - **Ilorazowa:** $d/dx \frac{f(x)}{g(x)} = \frac{f'(x)g(x) - f(x)g'(x)}{g2(x)}$

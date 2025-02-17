@@ -11,6 +11,7 @@ Używany do przemieszczania danych do większego rejestru. **Zeruje** wszystkie 
 ## movsx
 Jak `movsx`, tylko używa **wartości [[Flagi|ZF]]**. Zachowuje wartość liczby w U2.
 
+---
 # add/sub
 ...oraz wszystkie inne obliczenia dwuargumentowe
 
@@ -21,6 +22,7 @@ Jak odwołać się do pamięci?
 ## adc
 **dodatkowo** dodaje do wyniku [[Flagi|flagę carry]].
 
+---
 # mul/div
 Wyjątkowo mnożenie jest jednoargumentowe. W zależności od rozmiaru czynnika wybierane są [[Rejestry|rejestry]] do odczytu i zapisu:
 8-bit: `arg * al` -> `ax`
@@ -30,6 +32,7 @@ Wyjątkowo mnożenie jest jednoargumentowe. W zależności od rozmiaru czynnika 
 
 `div ebx` = $\frac{edx:eax}{ebx}$ -> iloraz: `eax`, reszta: `edx`
 
+---
 # lea
 *load effective address*
 ![[Adresowanie#^5bb429]]
@@ -44,11 +47,13 @@ add ebx, edi
 add ebx, 1
 ```
 
+---
 # push/pop
 Wepchnij/zdejmij wartość na [[Stos]]. Potrzebne przy wywoływaniu funkcji.
 ## pusha/popa
 *Push all/pop all* - zapamiętuje wszystkie [[Rejestry#Rejestry ogólne]]
 
+---
 # db
 *define byte*. `db dana, ... dana`
 Można użyć do [[Kodowanie instrukcji]].
@@ -169,6 +174,7 @@ np. `setc ax` "jeżeli carry, wpisz 1"
 `BTS` - set (ustaw 1)
 `BTC` - complement (flip)
 
+---
 # IN/OUT
 ![[Urządzenia zewnętrzne#Najważniejsze instrukcje `IN` `OUT`]]
 
@@ -176,3 +182,5 @@ np. `setc ax` "jeżeli carry, wpisz 1"
 # [[Instrukcje koprocesora]]
 
 # [[Rozkazy na blokach danych]]
+
+# [[Instrukcje SSE]]

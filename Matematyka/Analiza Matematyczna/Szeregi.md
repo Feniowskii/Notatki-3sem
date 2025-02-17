@@ -1,5 +1,5 @@
 Sumę ciągu znajdujemy dla szeregów zbieżnych:
-$\lim_{n \to \infty}{S_n = \lim_{n \to \infty} \sum_{k=1}^{n}(ak)}$ (ciąg sum jest zbieżny)
+$\lim_{n \to \infty}{S_n = \lim_{n \to \infty} \sum_{k=1}^{n}(a_k)}$ (ciąg sum jest zbieżny)
 ## Szeregi specjalne
 **Szereg geometryczny:** zbieżny jeżeli q jest w (-1, 1)
 	$S_\infty = \frac{1}{1-q}$
@@ -43,18 +43,20 @@ $\lim_{n \to \infty}{S_n = \lim_{n \to \infty} \sum_{k=1}^{n}(ak)}$ (ciąg sum j
 
 >[!Tip] Szeregi naprzemienne
 >$\Sigma |(-1)^n s(n)| \text{ zbiezny} \implies \Sigma (-1)^n s(n) \text{ zbiezny}$
+>
+>jeśli |an| wciąż jest zbieżny, an jest zbieżny *bezwzględnie*
+w przeciwnym wypadku jest zbieżny *warunkowo*
+
 
 **Kryterium całkowe:**
-	jeżeli f jest nieujemna nierosnąca w znaczącym przedziale
-	oraz ak = f(k) =>
-	szereg od m do inf oraz całka z f od m do inf zachowują się tak samo
-### Dla szeregów naprzemiennych:
-an = (-1)^n · bn
+	jeżeli $a_k$ jest nieujemne nierosnące
+	$\Sigma_m^\infty a_k$ jest jak $\int_m^\infty a(k) \space dk$
+
 **Kryterium Leibniza:**
 	lim bn = 0   oraz   bn+1 w (0, bn]   =>   zbieżny
 	rozbieżności nie rozstrzyga
-jeśli |an| wciąż jest zbieżny, an jest zbieżny *bezwzględnie*
-w przeciwnym wypadku jest zbieżny *warunkowo*
+
+
 
 >[!tip] Pierwszeństwo stosowania kryteriów
 >1. warunek konieczny
@@ -71,3 +73,6 @@ g = lim $\sqrt{|cn|}$ = lim $|\frac{c_{n+1}}{c_n}|$
 g = inf => R = 0
 g = 0 => R = inf
 normalnie R = 1/g
+
+# Suma szeregu
+$$\sum_{n=n_0}^\infty (\frac{a}{b})^{n \pm ...} $$

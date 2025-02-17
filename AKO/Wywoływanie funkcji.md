@@ -1,6 +1,6 @@
 [[Podprogram]]
-# Standardy
-![[Standardy wywołań.png]]
+
+![[Przekaz argumentów]]
 [[AKO_2024_cz_3.pdf#page=32|... i parę innych]].
 
 >[!Tip] Czyszczenie stosu jako program *wywołujący* (Standard C)
@@ -18,7 +18,7 @@
 >ret 12 ; wracając do wywołującego dodaj 12 do esp
 >ENDP
 >```
->Rozmiar sumaryczny parametrów będzie *dekoratorem* nazwy funkcji! np. `_moja_funkcja@12`
+>Rozmiar sumaryczny parametrów będzie [[Dekoratory|dekoratorem]] funkcji! np. `_moja_funkcja@12`
 
 ^73d0ca
 
@@ -30,6 +30,5 @@
 >esp, ebp, edi, edi, ebx
 >(Standard C)
 >>[!warning] Można modyfikować ecx, edx
->>Na przykład [[Najważniejsze instrukcje#loop|loop]] dekrementuje ecx
 
 ^a7507b

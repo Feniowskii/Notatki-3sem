@@ -1,3 +1,7 @@
+---
+aliases:
+  - RAM
+---
 
 >[!Note] Zobacz też: [[Pamięć fizyczna]] 
 
@@ -7,11 +11,14 @@ Jeśli komórkę tworzy 8 bitów, pamięć ma *organizację bajtową*.
 >[!Info] Dane zapisane w pamięci są nierozróżnialne od instrukcji! ^[[[Architektura von Neumanna]]]
 
 # Słowo
-Słowem określa się rozmiar [[Rejestry|rejestru]].
+
+^78ee08
+
+~~Słowem określa się rozmiar rejestru, który jest w stanie zaadresować całą [[#^przestrzen-adresowa|przestrzeń adresową]].~~ Była to prawda, gdy komputery miały mały RAM. Dzisiaj, by zachować kompatybilność wsteczną, słowo to po prostu **dwa bajty**.
 
 ![[Dyrektywy alokacji.png]]
 
-**Przestrzeń adresowa** to zbiór wszystkich liczb które stanowią adresy istniejących komórek w pamięci. Zazwyczaj przestrzeń adresowa ma liczność równą największej możliwej wartości słowa.
+**Przestrzeń adresowa** to zbiór wszystkich liczb które stanowią adresy istniejących komórek w pamięci. Zazwyczaj przestrzeń adresowa ma liczność równą największej możliwej wartości słowa. ^przestrzen-adresowa
 # Znaczność bitów
 \[==M==SB __ __ __ ... __ ==L==SB]
 ## MSB

@@ -44,17 +44,6 @@ Wymagające natychmiastowej obsługi - wykonywane niezależnie od flagi IF.
 
 ---
 
-
-# Wyjątki procesora ^[[[AKO_2024_cz_4.pdf#page=69]]]
-Nazywane **przerwaniami sprzętowymi wewnętrznymi**. Proceury obsługi wyjątków mają swoje [[Tablica wektorów przerwań|deskryptory]].
-## Niepowodzenia (Faults)
-Recoverable usterki.
-## Pułapki (Traps)
-Stany kontrolowanej bezczynności, m.in. breakpointy debuggera.
-## Błędy nienaprawialne (Aborts)
-
-## [[AKO_2024_cz_4.pdf#page=72|Przykładowe wyjątki]]
-
----
+![[Wyjątki procesora]]
 # DMA
 Direct Memory Access: urządzenie które wyręcza procesor w komunikacji RAM - IO. 

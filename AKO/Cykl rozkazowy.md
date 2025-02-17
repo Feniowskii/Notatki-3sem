@@ -1,5 +1,11 @@
-![[AKO_2024_cz_1.pdf#page=46]]
+[[AKO_2024_cz_1.pdf#page=46]]
 
+1. Fetch
+2. Decode
+3. Read
+4. Execute
+5. Write
+^cykl-rozkazowy
 # Program counter ([[Rejestry#^7f4388|EIP]])
 > wskaźnik instrukcji/licznik rozkazów
 
